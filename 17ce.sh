@@ -1,8 +1,8 @@
 #!/bin/sh
 # Copyight (C) 2017  www.17ce.com
 START=99
-CDN_BASE="http://git.oschina.net/mjyhj/K2_17ce/raw/master/"
-UPDATE_URL="http://git.oschina.net/mjyhj/K2_17ce/raw/master/17ce_version.php"
+CDN_BASE="https://git.oschina.net/opensuse/K2_17ce/raw/master/"
+UPDATE_URL="https://git.oschina.net/opensuse/K2_17ce/raw/master/17ce_version.php"
 TEMP_FILE="/tmp/update.txt"
 UPDATE_FILE="/tmp/update.tgz"
 WORK_DIR="/tmp/17ce"
