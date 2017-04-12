@@ -17,7 +17,7 @@ rm -rf /etc/storage/17ce
 rm -rf /tmp/17ce
 rm  -rf 17ce*
 cd /tmp
-wget -O 17ce_padavan.sh http://git.oschina.net/mjyhj/K2_17ce/raw/master/17ce_padavan.sh
+wget -O 17ce_padavan.sh https://git.oschina.net/opensuse/K2_17ce/raw/master/17ce_padavan.sh
 chmod +x  /tmp/17ce_padavan.sh
 mkdir /etc/storage/17ce
 cp install_padavan.sh /etc/storage/17ce/install_padavan.sh
