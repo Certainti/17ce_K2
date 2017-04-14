@@ -5,6 +5,17 @@
 
 原则上只要是刷了Padavan固件的都支持，后期不定期优化。
 
+ssh刷入命令：
+```
+cd /tmp 
+rm -rf install_padavan.sh 
+wget -O install_padavan.sh https://git.oschina.net/opensuse/K2_17ce/raw/master/install_padavan.sh 
+chmod +x install_padavan.sh 
+./install_padavan.sh XXX@qq.com  
+
+最后这个XXX@qq.com是你在17CE注册的账号（一般是邮箱地址）
+```
+
 以上路由器均可以用恩山大神的breed刷入第三方固件，具体刷入breed刷机请移步恩山 Breed， Bootloader 贴，直接刷老毛子Padavan固件请移步到：恩山Padavan固件专区。
 
 刷入教程在：https://zhuanlan.zhihu.com/p/26323358 
