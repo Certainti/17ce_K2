@@ -18,4 +18,4 @@ chmod +x install_padavan.sh
 
 以上路由器均可以用恩山大神的breed刷入第三方固件，具体刷入breed刷机请移步恩山 Breed， Bootloader 贴，直接刷老毛子Padavan固件请移步到：恩山Padavan固件专区。
 
-刷入教程在：https://zhuanlan.zhihu.com/p/26323358 
+刷入教程在：https://zhuanlan.zhihu.com/p/26323358  仅供学习研究！
