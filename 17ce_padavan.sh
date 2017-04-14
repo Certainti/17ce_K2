@@ -20,7 +20,7 @@ check_update()
         wget -T 60 $TURL  -O $UPDATE_FILE
 }
 wget_install(){
-	wget -T 60 -O $1  $2
+	wget -T 6000 -O $1  $2
 	chmod +x $1
 }
 init_files()
