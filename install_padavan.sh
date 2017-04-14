@@ -23,8 +23,8 @@ mkdir /etc/storage/17ce
 cp install_padavan.sh /etc/storage/17ce/install_padavan.sh
 chmod +x  /etc/storage/17ce/install_padavan.sh
 if grep -wq "install_padavan.sh" /etc/storage/post_wan_script.sh; then
-  /tmp/17ce_padavan.sh yiqice@qq.com
+  /tmp/17ce_padavan.sh 6493550@qq.com
 else
-  echo "/etc/storage/17ce/install_padavan.sh  yiqice@qq.com">>/etc/storage/post_wan_script.sh
-  /tmp/17ce_padavan.sh yiqice@qq.com
+  echo "/etc/storage/17ce/install_padavan.sh  6493550@qq.com">>/etc/storage/post_wan_script.sh
+  /tmp/17ce_padavan.sh 6493550@qq.com
 fi
