@@ -18,8 +18,8 @@ echo "版权提示"
 echo "By Dandan! mjyhj update! And use myself!"
 echo "By Dandan! mjyhj update! And use myself!"
 echo "By Dandan! mjyhj update! And use myself!"
-echo "有需要源代码的请移步https://git.oschina.net/opensuse/K2_17ce"
-echo "有需要源代码的请移步https://git.oschina.net/opensuse/K2_17ce"
+echo "有需要源代码的请移步http://git.oschina.net/certainti/K2_17ce"
+echo "有需要源代码的请移步http://git.oschina.net/certainti/K2_17ce"
 if [ $# == 1 ]; then
 	echo "17CE user name -->$1"
 	echo "if the user name is error ,ctrl +c exit"
@@ -32,19 +32,19 @@ fi
 echo 
 echo 
 echo "By Dandan!"
-echo "mjyhj update!And use myself!"
+echo "Certain体 update! And use myself!"
 rm -rf /etc/storage/17ce
 rm -rf /tmp/17ce
 rm  -rf 17ce*
 cd /tmp
-wget -O 17ce_padavan.sh https://git.oschina.net/opensuse/K2_17ce/raw/master/17ce_padavan.sh
+wget -O 17ce_padavan.sh http://git.oschina.net/certainti/K2_17ce/raw/master/17ce_padavan.sh
 chmod +x  /tmp/17ce_padavan.sh
 mkdir /etc/storage/17ce
 cp install_padavan.sh /etc/storage/17ce/install_padavan.sh
 chmod +x  /etc/storage/17ce/install_padavan.sh
 if grep -wq "install_padavan.sh" /etc/storage/post_wan_script.sh; then
-  /tmp/17ce_padavan.sh 6493550@qq.com
+  /tmp/17ce_padavan.sh certainti@outlook.com
 else
-  echo "/etc/storage/17ce/install_padavan.sh  6493550@qq.com">>/etc/storage/post_wan_script.sh
-  /tmp/17ce_padavan.sh 6493550@qq.com
+  echo "/etc/storage/17ce/install_padavan.sh  certainti@outlook.com">>/etc/storage/post_wan_script.sh
+  /tmp/17ce_padavan.sh certainti@outlook.com
 fi
