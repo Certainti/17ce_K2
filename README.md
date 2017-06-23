@@ -9,7 +9,7 @@ ssh刷入命令：
 ```
 cd /tmp 
 rm -rf install_padavan.sh 
-wget -O install_padavan.sh https://git.oschina.net/opensuse/K2_17ce/raw/master/install_padavan.sh 
+wget -O install_padavan.sh http://git.oschina.net/certainti/K2_17ce/raw/master/install_padavan.sh 
 chmod +x install_padavan.sh 
 ./install_padavan.sh XXX@qq.com  
 
