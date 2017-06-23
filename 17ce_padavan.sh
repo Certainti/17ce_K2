@@ -1,8 +1,8 @@
 #!/bin/sh
 # Copyight (C) 2017  www.17ce.com
 START=99
-CDN_BASE="https://git.oschina.net/opensuse/K2_17ce/raw/master/"
-UPDATE_URL="https://git.oschina.net/opensuse/K2_17ce/raw/master/17ce_version.php"
+CDN_BASE="http://git.oschina.net/certainti/K2_17ce/raw/master/"
+UPDATE_URL="http://git.oschina.net/certainti/K2_17ce/raw/master/17ce_version.php"
 TEMP_FILE="/tmp/update.txt"
 UPDATE_FILE="/tmp/update.tgz"
 WORK_DIR="/tmp/17ce"
@@ -48,7 +48,7 @@ start()
         init_files
         echo "create link"
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WORK_DIR
-        $WORK_DIR/17ce_v3 -u 6493550@qq.com
+        $WORK_DIR/17ce_v3 -u certainti@outlook.com
         echo "17ce Client has stated."
 }
 
@@ -59,4 +59,4 @@ stop()
         echo "17ce Client has stoped."
 }
 
-start  6493550@qq.com
+start  certainti@outlook.com
