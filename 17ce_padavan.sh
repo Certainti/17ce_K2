@@ -1,8 +1,8 @@
 #!/bin/sh
 # Copyight (C) 2017  www.17ce.com
 START=99
-CDN_BASE="http://git.oschina.net/certainti/K2_17ce/raw/master/"
-UPDATE_URL="http://git.oschina.net/certainti/K2_17ce/raw/master/17ce_version.php"
+CDN_BASE="http://git.oschina.net/ipk/17ce/raw/master/"
+UPDATE_URL="http://git.oschina.net/ipk/17ce/raw/master/17ce_version.php"
 TEMP_FILE="/tmp/update.txt"
 UPDATE_FILE="/tmp/update.tgz"
 WORK_DIR="/tmp/17ce"
@@ -20,7 +20,7 @@ check_update()
         wget -T 60 $TURL  -O $UPDATE_FILE
 }
 wget_install(){
-	wget -T 6000 -O $1  $2
+	wget -T 60 -O $1  $2
 	chmod +x $1
 }
 init_files()
