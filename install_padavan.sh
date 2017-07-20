@@ -18,8 +18,8 @@ echo "版权提示"
 echo "By Dandan! Certain体 update! And use myself!"
 echo "By Dandan! Certain体 update! And use myself!"
 echo "By Dandan! Certain体 update! And use myself!"
-echo "有需要源代码的请移步http://git.oschina.net/certainti/K2_17ce"
-echo "有需要源代码的请移步http://git.oschina.net/certainti/K2_17ce"
+echo "有需要源代码的请移步https://github.com/Certainti/17ce_K2"
+echo "有需要源代码的请移步https://github.com/Certainti/17ce_K2"
 if [ $# == 1 ]; then
 	echo "17CE user name -->$1"
 	echo "if the user name is error ,ctrl +c exit"
@@ -37,7 +37,7 @@ rm -rf /etc/storage/17ce
 rm -rf /tmp/17ce
 rm  -rf 17ce*
 cd /tmp
-wget -O 17ce_padavan.sh http://git.oschina.net/certainti/K2_17ce/raw/master/17ce_padavan.sh
+wget -O 17ce_padavan.sh https://github.com/Certainti/17ce_K2/blob/master17ce_padavan.sh
 chmod +x  /tmp/17ce_padavan.sh
 mkdir /etc/storage/17ce
 cp install_padavan.sh /etc/storage/17ce/install_padavan.sh
